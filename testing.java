@@ -1,8 +1,15 @@
 public class testing{
 	public static void main(String[] args){
-		System.out.println("Hello World");
-		System.out.println("Check123");
+		printStuff(10);
+	}
 
-		System.out.println(" Why do we exist");
+
+
+
+
+	public static void printStuff(int i){
+		for(int j=0;j<i;j++){
+			System.out.println("Lets goo");
+		}
 	}
 }
